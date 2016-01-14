@@ -3,11 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>BirdWatchr</title>
+  <script src="/bower_components/handlebars/handlebars.js"></script>
   <script src="/js/main.js"></script>
 </head>
 <body>
   <h1>Birds of NY</h1>
   <a href="/sightings/new">Spotted a bird?</a>
+  <script id="list-template" type="x-template">
+  	<ul class="list">
+  		<li class="bird">{{bird}}</li>
+  		<li class="location">{{location}}</li>
+  		<li class="date">{{date}}</li>
+    </ul>   
+  </script>
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
 </body>
 </html>
 

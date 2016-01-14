@@ -1,0 +1,5 @@
+{
+	"undefined": "localhost/myDB",
+	"dev": "mongodb://localhost:27017/birds",
+	"prod": "localhost/PROD_DB_NAME"
+}

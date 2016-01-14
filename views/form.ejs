@@ -8,7 +8,9 @@
 <body>
   <h1>Spotted a bird?</h1>
   <form method="POST" action="/sightings">
-    <input type="text" name="sighting[bird]">
+    <input type="text" name="sighting[bird]" placeholder="name">
+    <input type="text" name="sighting[location]" placeholder="location">
+    <input type="date" name="sighting[date]" placeholder="date">
     <input type="submit" value="Create">
   </form>
 </body>
